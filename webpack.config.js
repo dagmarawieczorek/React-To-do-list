@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = {
-  entry:"./js/zadanie01.jsx",
+  entry:"./js/app.jsx",
   output: { filename: "out.js", path: path.resolve(__dirname, "js") },
   mode: "development", watch: true,
   module: {
